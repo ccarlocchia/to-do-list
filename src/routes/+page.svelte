@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>To Do List</title>
+	<meta name="app" content="a to do list app" />
+</svelte:head>
+
 <script lang="ts">
     type ToDoItem = {
         text: string
