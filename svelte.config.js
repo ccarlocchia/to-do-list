@@ -6,11 +6,9 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			fallback:'app.html'
-		}),
+		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+			base: process.env.NODE_ENV === 'production' ? '/to-do-list' : '',
 		}
 	}
 };
