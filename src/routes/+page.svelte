@@ -108,9 +108,25 @@
         right: 4%;
         top: 45%;
         translate: 0% -50%;
+        accent-color: var(--color-theme-1);
     }
 
     .filters {
         margin-block: 1rem;
     }
+
+    button{
+        width: fit-content;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 2px;
+        border: none;
+    }
+
+    button:focus,
+    button:hover {
+	background: var(--color-theme-1);
+	color: white;
+	outline: none;
+}
 </style>

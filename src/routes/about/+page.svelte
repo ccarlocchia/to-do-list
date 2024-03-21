@@ -4,23 +4,27 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1 class="about-me-title">About this project...</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Hi👋 My name is <b>Camila</b>, I'm a software developer who loves to learn new programming languages, frameworks, and any code related stuff.
 	</p>
-
-	<pre>npm create svelte@latest</pre>
-
+	
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		This is an easy project I've made to pick up <a href="https://svelte.dev/" target="_blank">Svelte</a>. It was fun learning about it, playing with it, and getting to understand how its <a href="https://svelte.dev/blog/runes" target="_blank">runes</a> work.
 	</p>
 
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		Whenever I got stuck, I was thankfull to find an answer to some of the issues I faced looking at a similar project that was made in a <a href="https://joyofcode.xyz/svelte-todo-app" target="_blank">Tutorial from JoyOfCode</a>.
+	</p>
+	<p>
+		A <a href="/sverdle">wordle</a> come included with the project when I started, and as a wordle lover I can't simply remove it, so feel free to play with it.
 	</p>
 </div>
+
+<style>
+	.about-me-title{
+		font-weight: 600;
+		text-shadow: 1.5px 1.5px 6px var(--color-theme-3);
+	}
+</style>
