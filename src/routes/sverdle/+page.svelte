@@ -278,8 +278,8 @@
 	}
 
 	.letter.missing {
-		background: rgba(255, 255, 255, 0.5);
-		color: rgba(0, 0, 0, 0.5);
+		background: var(--color-missing);
+		color: white;
 	}
 
 	.letter.exact {
@@ -288,7 +288,7 @@
 	}
 
 	.letter.close {
-		border: 2px solid var(--color-theme-2);
+		border: 2px solid var(--color-close);
 	}
 
 	.selected {
@@ -335,11 +335,12 @@
 	}
 
 	.keyboard button.missing {
-		opacity: 0.5;
+		background: var(--color-missing);
+		color: white;
 	}
 
 	.keyboard button.close {
-		border: 2px solid var(--color-theme-2);
+		border: 2px solid var(--color-close);
 	}
 
 	.keyboard button:focus {
