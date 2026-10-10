@@ -22,7 +22,7 @@
 		Whenever I got stuck, I was thankfull to find an answer to some of the issues I faced looking at a similar project that was made in a <a href="https://joyofcode.xyz/svelte-todo-app" target="_blank">Tutorial from JoyOfCode</a>.
 	</p>
 	<p>
-		A <a href="{base}/sverdle">wordle</a> come included with the project when I started, and as a wordle lover I can't simply remove it, so feel free to play with it.
+		A <a href="{base}/sverdle">wordle</a> come included with the project when I started, and as a wordle lover I can't simply remove it, so feel free to play with it (it only works if you run this project locally).
 	</p>
 </div>
 
