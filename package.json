@@ -4,8 +4,8 @@
 	"version": "0.0.1",
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -b main -d build",
-		"gh-pages": "npm run build && npx gh-pages -d build",
+		"deploy": "gh-pages -b gh-pages -d build --nojekyll",
+		"gh-pages": "npm run deploy",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
